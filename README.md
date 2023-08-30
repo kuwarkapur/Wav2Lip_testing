@@ -15,10 +15,10 @@ Now that you have everything you need, let's perform the lip-syncing:
 
 
 # Run the inference script with your files
-
+```
 python inference.py --checkpoint_path '/path/to/wav2lip.pth' --face '/path/to/video.mp4' --audio '/path/to/audio.wav'
+```
 Replace /path/to/wav2lip.pth with the path to the downloaded model checkpoint, /path/to/video.mp4 with the path to the video file, and /path/to/audio.wav with the path to the audio file.
-
 The script will generate an output video where the lip movements are synchronized with the provided audio.
 
 Remember to adjust the file paths according to your system's directory structure.
