@@ -1,6 +1,6 @@
 # Wav2Lip_testing
 
-# This guide will walk you through the process of using Wav2Lip to synchronize audio with video, making it appear as though the subject in the video is speaking the audio. This can be especially useful for various video editing and dubbing purposes.
+This guide will walk you through the process of using Wav2Lip to synchronize audio with video, making it appear as though the subject in the video is speaking the audio. This can be especially useful for various video editing and dubbing purposes.
 
 # Installation
 Before you begin, you need to install the required software and dependencies:
@@ -14,7 +14,8 @@ Video File: Download the video in which you want to sync the audio.
 Now that you have everything you need, let's perform the lip-syncing:
 
 
-#Run the inference script with your files.
+# Run the inference script with your files
+
 python inference.py --checkpoint_path '/path/to/wav2lip.pth' --face '/path/to/video.mp4' --audio '/path/to/audio.wav'
 Replace /path/to/wav2lip.pth with the path to the downloaded model checkpoint, /path/to/video.mp4 with the path to the video file, and /path/to/audio.wav with the path to the audio file.
 
