@@ -4,7 +4,9 @@ This guide will walk you through the process of using Wav2Lip to synchronize aud
 
 # Installation
 Before you begin, you need to install the required software and dependencies:
+
 FFmpeg-Python: A multimedia framework to handle video and audio.
+
 Librosa: A Python package for audio analysis.
 
 # Download Files
